@@ -12,14 +12,14 @@ a{text-decoration:none;}
 div{
     background-color: #f6f5f5;
     padding: 80px 80px 80px 80px;
-    display: 1045px; flex;
+    
     align-items: center;
     justify-content: space-between;
 }
 
 
 h1{
-    padding: 80;
+
     font-size:36px;
     color: rgb(255, 58, 58);
     margin:40px auto;
@@ -36,7 +36,6 @@ h1::after{
 h2{
     font-size:16px;
     color:gray;
-    margin: bottom 40px;;
 }
 
 ul > li {
@@ -51,5 +50,8 @@ ul > li > p{
     width: 283; height: 399;
     overflow: hidden;
     cursor: pointer;
-    transition: .5s;
+    
 }
+ul > li > p :hover{
+width:  120%;
+transition: .5s;}
